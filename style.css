@@ -71,3 +71,12 @@ h1 {
 .copyright {
   background: #feb139;
 }
+@media all and (max-width: 800px) {
+    .article {
+      flex-direction: column;
+      background-color: #FCD900;
+    }
+    .aside{
+      background-color:#FF5677 ;
+    }
+  }
