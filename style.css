@@ -72,11 +72,42 @@ h1 {
   background: #feb139;
 }
 @media all and (max-width: 800px) {
-    .article {
-      flex-direction: column;
-      background-color: #FCD900;
-    }
-    .aside{
-      background-color:#FF5677 ;
-    }
+  .article {
+    flex-direction: column;
+    background-color: #fcd900;
   }
+  .aside {
+    background-color: #ff5677;
+  }
+}
+@media all and (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    height: auto;
+  }
+  .home {
+    width: 100%;
+  }
+  .about {
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+  }
+  .articles {
+    flex-direction: column;
+    background-color: #09506f;
+  }
+  .text {
+    background-color: #62959c;
+  }
+  .link {
+    background-color: #a3ddcb;
+  }
+  .aside {
+    background-color: #fd7b54;
+  }
+  .ads {
+    background-color: #fdb36b;
+  }
+}
