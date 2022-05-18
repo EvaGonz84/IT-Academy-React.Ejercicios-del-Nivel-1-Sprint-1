@@ -4,8 +4,11 @@
   box-sizing: border-box;
   
   
+  
 }
 .main {
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   background: white;
   flex-flow: column nowrap;
